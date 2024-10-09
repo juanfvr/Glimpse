@@ -1,0 +1,130 @@
+:root {
+    --ice-100: #F1F9FF;
+    --ice-700: #6893FF;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Inter, sans-serif;
+}
+
+body {
+    background-color: var(--ice-100);
+}
+
+/** NAVBAR **/
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px 100px;
+    background-color: white;
+}
+
+.logo a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: var(--ice-700);
+}
+
+.logo img {
+    width: 48px;
+    height: 48px;
+}
+
+.navigation-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+
+}
+
+.links a{
+    text-decoration: none;
+    color: var(--ice-700);
+    font-weight: 500;
+}
+
+.navigation-links img {
+    width: 44px;
+    height: 44px;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-info p {
+    color: var(--ice-700);
+    font-size: 20px;
+}
+
+/** NAVBAR **/
+
+
+
+
+/** MAIN **/
+
+.album {
+    margin: 25px 250px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+
+}
+
+.photo {
+    width: 220px;
+    height: 220px;
+    justify-content: flex-end;
+}
+
+.picture {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    /* background-color: white; */
+    border-radius: 4px;
+    
+}
+
+.like-icon {
+    margin: 10px;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    z-index: 1;
+}
+
+/** MAIN **/
+
+
+
+
+/** FOOTER **/
+
+
+.footer {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: var(--ice-700);
+    height: 80px;
+    margin-top: 40px;
+
+}
+
+/** FOOTER **/
